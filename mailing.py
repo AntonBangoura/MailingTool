@@ -10,11 +10,11 @@ server.starttls()
 server.ehlo()
 
 
-server.login('nikolaykondratiev888@outlook.com', 'viktortsoi44')
+server.login('XXXX', 'XXXXX')
 
 msg = MIMEMultipart()
-msg["From"] = "Nikolay"
-msg['To'] = 'viktoriiakarr@gmail.com'
+msg["From"] = "XXXX"
+msg['To'] = 'XXXX'
 msg['Subject'] = 'Test'
 
 with open('message.txt', 'r') as f:
