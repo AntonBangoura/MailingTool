@@ -34,4 +34,4 @@ p.add_header('Content-Disposition', f'attachment; filename={filename}')
 msg.attach(p)
 
 text = msg.as_string()
-server.sendmail('nikolaykondratiev888@outlook.com', 'viktoriiakarr@gmail.com', text)
+server.sendmail('XXXX', 'XXXXX', text)
